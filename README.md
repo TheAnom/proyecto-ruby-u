@@ -1,0 +1,64 @@
+# PROYECTO SISTEMA GESTION DE PAGOS Y NOTAS DE ESTUDIANTE (GESTION JB)
+
+## REQUISITOS SECCION DE CODIFICACION Y DISENO DE LOGICA:
+	
+## 1. MODULO FORMULARIO PARA LOGIN (ADMINISTRADOR Y SUB ADMINISTRADOR)
+1. El administrador tiene todos los permisos de ingresar, modificar, actualizar, eliminar respaldos y consultas.
+    *  El sub administrador solo tiene permisos de consultar e ingresar datos.
+	* Cada usuario tiene un nombre y contrasena predeterminado, el cambio de cualquiera de estas dos la maneja el administrador.
+
+## 2. MODULO DE INGRESO DE DATOS (INGRESO DATOS)
+1. Formulario de ingreso de datos de los estudiantes, la cual son los siguientes campos:
+	* Nombre completo
+	* Institucion donde estudia
+	* Grado que esta cursando
+	* Telefono
+	* Pago de inscripccion
+	* Pago de meses (enero a octubre), si el estudiante decide quedarse otro mes (noviembre) mas se habilita la casilla.
+	* Pago de examenes (1,2,3 y 4)
+	* Pago de papeleria
+	
+## 3. MODULO INGRESO DATOS (INGRESO NOTAS)
+1. Formulario donde se ingresan las notas que deben de contener lo siguiente:
+	* Busqueda del nombre del estudiante para modificar o agregar la nota y a la vez obtener el nombre, grado.
+			ii. Si el estudiante ya se realizo el examen aparece la nota de lo contrario aparecera el valor de cero.
+	
+## 4. MODULO DE CONSULTAS (CONSULTAR LOS PAGOS Y NOTAS)
+1. Una ventana o pestana dedicada a mostrar los datos consultados atravez del nombre (si se proporciona una clave utilizar clave)
+	1. Modulo consulta Meses
+		* Mostrar todos los datos de los estudiantes
+		* Mostrar una tabla con los meses solventes (si el mes no se ha cancelado despues de los primeros 5 dias del mes mostrar la casilla en rojo de
+			    lo contrario no mostrar ningun color)
+		* Si hasta la fecha el estudiante tiene todos los meses cancelados y papeleria, mostrar una barra de estatus donde se mencione que esta
+			     solvente, de lo contrario mostrar que no esta solvente.
+	2. Modulo consulta notas
+		* Cuando el estudiante tiene canceladas los examenes se muestran las notas, si la nota es mayor a 60 esta aprobado de lo contrario mostrar reprobado.
+
+
+## REQUISITOS FUNCIONALES
+
+1. Login con roles (admin y subadmin).
+2. Registro de estudiantes.
+3. Registro de pagos por mes, exámenes y papelería.
+4. Registro de notas por estudiante.
+5. Consulta de pagos y notas.
+6. Validación de estado de cuenta (solvente/no solvente).
+7. Visualización de notas (aprobado/reprobado según calificación).
+
+## REQUISITOS NO FUNCIONALES
+
+1. Accesible desde una PC (web o escritorio).
+2. Interfaz clara y amigable.
+3. Seguridad básica en el acceso (usuarios y contraseñas).
+4. Base de datos para almacenamiento.
+
+![Alt](./01_entregable.png)
+
+## Ejecucion de Tareas para el presente entregable
+
+| Tarea | Responsable |
+| ----------- | ----------- |
+| Planeacion | Jeferson Escobar |
+| Sketchs | Brandoon Gonzales |
+| Creacion y Configuracion Repo | Jeferson Escobar |
+| Requisitos | Brandoon Gonzales |
