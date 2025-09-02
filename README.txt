@@ -33,3 +33,22 @@ REQUISITOS SECCION DE CODIFICACION Y DISENO DE LOGICA:
 			     solvente, de lo contrario mostrar que no esta solvente.
 		c. Modulo consulta notas
 			i. Cuando el estudiante tiene canceladas los examenes se muestran las notas, si la nota es mayor a 60 esta aprobado de lo contrario mostrar reprobado.
+
+
+REQUISITOS FUNCIONALES
+
+	1. Login con roles (admin y subadmin).
+	2.Registro de estudiantes.
+	3.Registro de pagos por mes, exámenes y papelería.
+	4.Registro de notas por estudiante.
+	5.Consulta de pagos y notas.
+	6.Validación de estado de cuenta (solvente/no solvente).
+	7.Visualización de notas (aprobado/reprobado según calificación).
+
+REQUISITOS NO FUNCIONALES
+
+	1.Accesible desde una PC (web o escritorio).
+	2.Interfaz clara y amigable.
+	3.Seguridad básica en el acceso (usuarios y contraseñas).
+	4.Base de datos para almacenamiento.
+
